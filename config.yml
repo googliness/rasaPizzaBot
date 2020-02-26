@@ -1,0 +1,22 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: en
+pipeline:
+  - name: "nlp_spacy"
+  - name: "tokenizer_spacy"
+  - name: "ner_crf"
+  - name: "intent_featurizer_spacy"
+  - name: "intent_classifier_sklearn"
+  - name: "ner_synonyms"
+  - name: "SpacyEntityExtractor"
+      # dimensions to extract
+    dimensions: ["PERSON", "LOC"]
+
+policies:
+  - name: MemoizationPolicy
+  - name: KerasPolicy
+  - name: MappingPolicy
+  - name: "FallbackPolicy"
+    nlu_threshold: 0.3
+    core_threshold: 0.2
+    fallback_action_name: "action_default_fallback"
