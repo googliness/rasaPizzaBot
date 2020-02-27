@@ -70,6 +70,8 @@
 - [Hyacinth](person)
 - [Alexis](person)
 - [Gisela](person)
+- [ravi kumar](person)
+- [Meghna Singh](person)
 
 ## intent:pizza_all_details
 - I want to order [large](size) pizza with [olives](topping)
@@ -94,6 +96,7 @@
 - [onion](topping:onions)
 - [medium](size) pizza with [pepproni](topping)
 - i want a [larg](size:large) [onion](topping:onions) pizza
+- [small](size)
 
 ## intent:pizza_no_details
 - I want pizza
@@ -109,6 +112,8 @@
 - I wnt to ordr a pijja
 - I wntt piza
 - i want pizza
+- i want to order pizza
+- i want a pizza
 
 ## intent:pizza_size_details
 - I want to order [Large](size:large) pizza
@@ -174,6 +179,8 @@
 - wnt [cheze](topping:cheese) pijja
 - I wnt [olvs](topping:olives) pija
 - [corn](topping) toppings
+- [corn](topping)
+- [cheeze](topping:cheese)
 
 ## intent:user_address_full
 - My address is [995, btn , bangalore](address)
@@ -188,6 +195,8 @@
 - [madivala, bangalore](address)
 - room 202 plaza hotel marathalli
 - [room 202 hotel plaze domlur](address)
+- [35 electronic city bangalore](address)
+- [22 street 1st floor 33 indiranagar](address)
 
 ## intent:user_phone
 - [4526272780](phone)
@@ -202,6 +211,8 @@
 - number: [67843545347](phone)
 - number is [8989765676](phone)
 - [8735986383](phone)
+- [8736356876](phone)
+- [6789067890](phone)
 
 ## intent:pizza_order_status_no_details
 - pizza status

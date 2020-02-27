@@ -223,3 +223,48 @@
 * pizza_order_status_with_id{"order_id": "34"}
     - slot{"order_id": "34"}
     - action_fetch_order_status
+
+
+## interactive_story_8
+* greet
+    - utter_greet
+    - utter_service
+* pizza_no_details
+    - utter_size
+* pizza_all_details{"size": "medium"}
+    - slot{"size": "medium"}
+    - utter_topping
+* pizza_only_topping{"topping": "corn"}
+    - slot{"topping": "corn"}
+    - utter_fetch_name
+* greet_name{"person": "ravi kumar"}
+    - slot{"person": "ravi kumar"}
+    - utter_fetch_number
+* user_phone{"phone": "8736356876"}
+    - slot{"phone": "8736356876"}
+    - utter_fetch_address
+* user_address_full{"address": "35 electronic city bangalore"}
+    - slot{"address": "35 electronic city bangalore"}
+    - action_pizza_order
+
+## interactive_story_1
+* greet
+    - utter_greet
+    - utter_service
+* pizza_no_details
+    - utter_size
+* pizza_all_details{"size": "small"}
+    - slot{"size": "small"}
+    - utter_topping
+* pizza_only_topping{"topping": "cheese"}
+    - slot{"topping": "cheese"}
+    - utter_fetch_name
+* greet_name{"person": "Meghna Singh"}
+    - slot{"person": "Meghna Singh"}
+    - utter_fetch_number
+* user_phone{"phone": "6789067890"}
+    - slot{"phone": "6789067890"}
+    - utter_fetch_address
+* user_address_full{"address": "22 street 1st floor 33 indiranagar"}
+    - slot{"address": "22 street 1st floor 33 indiranagar"}
+    - action_pizza_order

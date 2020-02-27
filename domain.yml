@@ -19,17 +19,17 @@ entities:
 - size
 - topping
 intents:
+- greet_name
+- pizza_all_details
+- pizza_no_details
+- user_address_full
+- greet
+- pizza_only_topping
+- user_phone
 - pizza_order_status_with_id
 - pizza_order_status_no_details
-- greet
-- pizza_all_details
-- user_address_full
-- user_phone
-- greet_name
-- pizza_only_topping
 - pizza_size_details
 - deny
-- pizza_no_details
 - affirm
 - pizza_topping_details
 - pizza_only_size
